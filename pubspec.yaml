@@ -1,0 +1,16 @@
+name: flutter_yolo_app
+description: A Flutter app integrating YOLOv8 with PyTorch Mobile.
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^0.8.4+4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/best.ptl
